@@ -1,0 +1,21 @@
+/* line 5, ../sass/partials/header.scss */
+.site-header {
+  background-color: green;
+}
+@media only screen and (min-width: 1440px) {
+  /* line 5, ../sass/partials/header.scss */
+  .site-header {
+    background-color: pink;
+  }
+}
+
+/* line 19, ../sass/partials/header.scss */
+.site-title {
+  background-color: orange;
+}
+
+/* line 25, ../sass/partials/header.scss */
+.entry-title {
+  font-size: 44px;
+  color: green;
+}

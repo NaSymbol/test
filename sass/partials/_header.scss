@@ -1,0 +1,37 @@
+$colorA: blue;
+$primaryColor: pink;
+$secondaryColor: lightblue;
+
+@mixin funcA($par, $par2){
+
+}
+@mixin funcB($par, $par2){
+
+}
+
+.site-header{
+  postion: relative;
+  z-index: 1000;
+box-shadow: lightgray 0px 12px 14px;
+  background-color:$secondaryColor;
+ @media only screen and (min-width:1440px){
+   background-color:pink;
+ }
+}
+
+
+.site-branding{
+  //display:none;
+}
+
+
+.site-title{
+  background-color: orange;
+
+}
+
+
+.entry-title{
+ font-size: 44px;
+color:green;
+}
