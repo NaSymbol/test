@@ -910,7 +910,6 @@ footer {
 /* line 9, sass/partials/_content.scss */
 .site-content {
   position: relative;
-  z-index: -100;
 }
 
 /*--------------------------------------------------------------
